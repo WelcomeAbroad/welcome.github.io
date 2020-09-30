@@ -2,7 +2,7 @@
 <!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
 <!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!-->
-<html class="no-js" lang="en">
+<html class="no-js" lang="ru">
 <head>
     <meta charset="utf-8">
     <title>WELCOME ABROAD</title>
@@ -35,7 +35,7 @@
                 
                 <ul class="header-nav__list">
                     <li class="current"><a class="smoothscroll"  href="#home" title="home">Главная</a></li>
-                    <li><a class="smoothscroll"  href="#about" title="about">Что мы такое?</a></li>
+                    <li><a class="smoothscroll"  href="#about" title="about">Кто мы?</a></li>
                     <li><a class="smoothscroll"  href="#services" title="services">Для чего это?</a></li>
                     <li><a class="smoothscroll"  href="#works" title="works">Встречи</a></li>
                     <li><a class="smoothscroll"  href="#clients" title="clients">Люди о нас</a></li>
@@ -117,7 +117,7 @@
                 <a href="https://t.me/wa_talk"><i class="fa fa-telegram" aria-hidden="true"></i><span>Telegram</span></a>
             </li>
             <li>
-                <a href="https://vk.com/club198394844"><i class="fa fa-vkontakte" aria-hidden="true"></i><span>Vkontakte</span></a>
+                <a href="https://vk.com/club198394844"><i class="vk-vkontakte" aria-hidden="true"><img src="images/vk2.png" </i><span>Vkontakte</span></a>
             </li>
         </ul> 
         <!-- end home-social -->
@@ -132,7 +132,7 @@
         <div class="row section-header has-bottom-sep" data-aos="fade-up">
             <div class="col-full">
                 <h3 class="subhead subhead--dark">Привет друг!</h3>
-                <h1 class="display-1 display-1--light">Что мы такое?</h1>
+                <h1 class="display-1 display-1--light">Кто мы?</h1>
             </div>
         </div> <!-- end section-header -->
 
@@ -324,7 +324,7 @@
                         <div class="item-folio">
                                 
                             <div class="item-folio__thumb">
-                                <a href="images/portfolio/3.JPG" class="thumb-link" title="The Beetle Car" data-size="550x800">
+                                <a href="images/portfolio/3.JPG" class="thumb-link" title="The Beetle Car" data-size="1200x800">
                                     <img src="images/portfolio/3.JPG"
                                          srcset="images/portfolio/3.JPG 1x, images/portfolio/3.JPG 2x" alt="">
                                 </a>
@@ -529,40 +529,35 @@
 
                 <h3 class="h6">Оставь заявку на встречу</h3>
 
-                <form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
+                <form name="contactForm" id="contactForm" method="POST" action="mail.php" novalidate="novalidate">
                     <fieldset>
-    
-                    <div class="form-field">
-                        <input name="contactName" type="text" id="contactName" placeholder="Your Name" value="" minlength="2" required="" aria-required="true" class="full-width">
-                    </div>
                         <div class="form-field">
-                            <input name="contactPhone" type="email" id="contactEmail" placeholder="Your Phone" value="" required="" aria-required="true" class="full-width">
+                            <input name="contactName" type="text" id="contactName" placeholder="Your Name" value="" minlength="2" required="" aria-required="true" class="full-width">
                         </div>
                         <div class="form-field">
-                            <input name="contactAge" type="text" id="contactSubject" placeholder="How old are you?" value="" class="full-width">
+                            <input name="contactPhone" type="text" id="contactPhone" placeholder="Your Phone" value="" required="" aria-required="true" class="full-width">
                         </div>
                         <div class="form-field">
-                            <input name="contactStudy" type="email" id="contactEmail" placeholder="Where do you study?" value="" required="" aria-required="true" class="full-width">
+                            <input name="contactAge" type="text" id="contactAge" placeholder="How old are you?" value="" class="full-width">
                         </div>
                         <div class="form-field">
-                            <input name="contactNationality" type="email" id="contactEmail" placeholder="What nationality are you?" value="" required="" aria-required="true" class="full-width">
+                            <input name="contactNationality" type="text" id="contactNationality" placeholder="Your native language?" value="" required="" aria-required="true" class="full-width">
                         </div>
-                    <div class="form-field">
-                        <textarea name="contactLanguage" id="contactMessage" placeholder="What language do you want to practice?" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
-                    </div>
-
-                    <div class="form-field">
-                        <button class="full-width btn--primary">Оставить заявку</button>
-                        <div class="submit-loader">
-                            <div class="text-loader">Sending...</div>
-                            <div class="s-loader">
-                                <div class="bounce1"></div>
-                                <div class="bounce2"></div>
-                                <div class="bounce3"></div>
+                        <div class="form-field">
+                            <textarea name="contactLanguage" id="contactLanguage" placeholder="What language do you want to practice?" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
+                        </div>
+                        <div class="form-field">
+                            <button class="full-width btn--primary">Оставить заявку</button>
+                            <div class="submit-loader">
+                                <div class="text-loader">Sending...</div>
+                                <div class="s-loader">
+                                    <div class="bounce1"></div>
+                                    <div class="bounce2"></div>
+                                    <div class="bounce3"></div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-    
+
                     </fieldset>
                 </form>
 
