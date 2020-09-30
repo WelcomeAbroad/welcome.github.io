@@ -3551,3 +3551,18 @@ footer .row {
     border: 2px solid #FFFFFF;
     border-radius: 50%;
 }
+
+.header-nav__social .vk-vkontakte-nav {
+    opacity: unset;
+    display: inline-block;
+    width: 22px;
+    height: 2px;
+    margin-top: -1px;
+    position: absolute;
+    left: 90px;
+    top: 93%;
+    right: auto;
+    bottom: auto;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
