@@ -484,7 +484,7 @@ form,
 }
 
 .line-scale-pulse-out > div {
-    background-color: #39b54a;
+    background-color: white;
     width: 4px;
     height: 35px;
     border-radius: 2px;
@@ -727,7 +727,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
     display: inline-block;
-    font-family: "montserrat-medium", sans-serif;
+    font-family: "Lovelo", "Line Bold";
     font-size: 1.2rem;
     text-transform: uppercase;
     letter-spacing: .3rem;
@@ -928,7 +928,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     content: ": ";
     margin-left: -0.2em;
 }
-
 
 /* dictionary definition style 
  * ----------------------------------------------- */
@@ -1730,7 +1729,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content h3 {
-    font-family: "montserrat-medium", sans-serif;
+    font-family: Lovelo, "Line Bold";
     font-size: 1.6rem;
     color: rgba(255, 255, 255, 0.5);
     text-transform: uppercase;
@@ -1742,11 +1741,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content h1 {
-    font-family: "montserrat-medium", sans-serif;
+    font-family: "Neon Absolute Sans";
     font-size: 6.3rem;
     line-height: 1.333;
     margin-top: 0;
-    color: #FFFFFF;
+    color: white;
 }
 
 .home-content__main {
@@ -2138,7 +2137,7 @@ html.no-csstransitions .home-content__main {
 .s-about {
     padding-top: 16.2rem;
     padding-bottom: 9rem;
-    background-color: #55ACEE;
+    background-color: #828282;
     color: #010507;
     position: relative;
 }

@@ -35,6 +35,17 @@
     font-weight: normal;
 }
 
+/*
+LOVELO LINE BOLD
+ */
+
+
+@font-face{
+    font-family:"lovelo-line-bold";
+    src:url("https://candyfonts.com/wp-data/2019/03/05/29770/Lovelo Line Bold.otf") format("woff"),
+    url("https://candyfonts.com/wp-data/2019/03/05/29770/Lovelo Line Bold.otf") format("opentype"),
+    url("https://candyfonts.com/wp-data/2019/03/05/29770/Lovelo Line Bold.otf") format("truetype");
+}
 
 /*
  * montserrat
