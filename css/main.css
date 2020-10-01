@@ -3566,3 +3566,13 @@ footer .row {
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
 }
+
+.contact-secondary .vk-vkontakte {
+    font-size: 14px;
+    right: 0;
+    text-align: center;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin: auto;
+}
